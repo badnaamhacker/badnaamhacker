@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv() # Load environment variables from a .env file if it exists
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE") # Replace with your token
-ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", "YOUR_ADMIN_TELEGRAM_ID")) # Replace with your Telegram User ID
+TELEGRAM_BOT_TOKEN = os.getenv("7998800242:AAFEdw_XQEO41qI4Q6zXiPzaal6CN7VO2Hc", "7998800242:AAFEdw_XQEO41qI4Q6zXiPzaal6CN7VO2Hc") # Replace with your token
+ADMIN_USER_ID = int(os.getenv("5156942271", "5156942271")) # Replace with your Telegram User ID
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///bot_database.db") # SQLite database file
 
 # Optional: Freelance Categories (can be loaded from JSON/YAML too)
